@@ -21,5 +21,5 @@ RUN cd ghc-9.0.0.20200925 \
 
 COPY main.hs main.hs
 
-RUN ghc -Wall -O3 -o ./main main.hs \
+CMD ghc -Wall -O3 -o ./main main.hs \
  && ./main
