@@ -1,5 +1,5 @@
 main : IO ()
-main = print $ reverse "Hello"
+main = putStrLn $ reverse "Hello"
 
 reverse : List a -> List a
 reverse = revAcc []
